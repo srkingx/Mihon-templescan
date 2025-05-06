@@ -1,20 +1,21 @@
 {
-    "name": "Temple Scan Extension Repo",
-    "extensions": [
+  "name": "Temple Scan Extension Repo",
+  "extensions": [
+    {
+      "name": "Temple Scan",
+      "pkg": "eu.kanade.tachiyomi.extension.es.templescan",
+      "lang": "es",
+      "version": "1.2.18",
+      "nsfw": true,
+      "sources": [
         {
-            "name": "Temple Scan",
-            "pkg": "eu.kanade.tachiyomi.extension.es.templescan",
-            "lang": "es",
-            "version": "1.2.18",
-            "nsfw": true,
-            "sources": [
-                {
-                    "name": "Temple Scan",
-                    "baseUrl": "https://templescanesp.kawi.lat",
-                    "lang": "es",
-                    "id": "templescan"
-                }
-            ]
+          "name": "Temple Scan",
+          "baseUrl": "https://templescanesp.kawi.lat",
+          "lang": "es",
+          "id": "templescan"
         }
-    ]
+      ],
+      "apk": "https://github.com/Srkingx/mihon-templescan/raw/main/templescan_extension.apk"
+    }
+  ]
 }
